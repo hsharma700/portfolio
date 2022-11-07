@@ -109,15 +109,19 @@ export default function Login() {
     },
   });
 
+
+  function movereg(){
+    Navigate("/register")
+  }
+
+
+
+
   return (
     <>
       <div className="divlog">
         <form onSubmit={handleSubmit}>
           <motion.div
-            initial={{ opacity: 0, scale: 1.1 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1 }}
             className="maindiv"
           >
             <motion.div
@@ -155,7 +159,7 @@ export default function Login() {
                 <button className="btn1" type="submit">
                   Login
                 </button>
-                <button className="btn2">Register</button>
+                <button className="btn2" onClick={movereg}>Register</button>
               </div>
             </motion.div>
           </motion.div>

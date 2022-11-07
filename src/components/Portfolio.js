@@ -5,7 +5,7 @@ export default function Portfolio() {
 
  
     function github(){
-        window.open("https://github.com/Himanshu-Sharma700")
+        window.open("https://github.com/hsharma700?tab=repositories")
     }
 
     function linkedin(){

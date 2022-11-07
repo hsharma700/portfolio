@@ -9,11 +9,13 @@
 }
 
 .regmaindiv {
-  background-image: url("https://pixabay.com/get/g81c7421ae9a2f855dc9a07a64d08d0fcb46042a235bbdc6d8e789098f63df2a284523c0407c39d7c271a3b7ee4964c3b21941954fe260264b15a219317fdc2c9_1920.jpg");
+  background: linear-gradient(125deg, rgb(53, 38, 64), rgba(106, 77, 37, 0.783));
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  overflow: hidden;
   align-items: center;
   background-size: cover;
 }
@@ -23,19 +25,20 @@
   max-height: 70vh;
   margin-top: -100px;
   padding: 50px;
-  background: rgba(196, 176, 114, 0.667);
+  background: linear-gradient(15deg, rgba(0, 81, 105, 0.57), rgba(49, 87, 94, 0.646));
   backdrop-filter: blur(15px);
   box-shadow: -10px 5px 10px 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   color: rgb(255, 255, 255);
   justify-content: center;
   align-items: center;
 }
 
 ::placeholder {
-  color: rgba(87, 26, 26, 0.454);
+  color: rgba(221, 200, 200, 0.454);
 }
 .regbox h1 {
   margin-bottom: 30px;
@@ -49,20 +52,21 @@
 .reginput input {
   width: 100%;
   padding: 10px;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1px;
   margin-bottom: 30px;
   background: transparent;
   border: none;
   border-bottom: 2px solid rgba(0, 0, 0, 0);
-  color: rgb(66, 45, 0);
+  color: rgb(251, 171, 0);
+  letter-spacing: 0.3rem;
   outline: none;
   transition: 1s;
   transition-duration: 2s 5s;
 }
 
 .reginput input:hover {
-  border-bottom: 2px solid rgb(36, 26, 0);
+  border-bottom: 2px solid rgb(231, 230, 226);
   border-radius: 10px;
 }
 
@@ -84,7 +88,8 @@ p{
   margin: 10px;
   border: none;
   background: none;
-  color: rgb(78, 53, 0);
+  color: rgb(231, 158, 0);
+  letter-spacing: 0.2rem;
   cursor: pointer;
   outline: none;
   transition: 0.2s;
@@ -114,7 +119,6 @@ p{
   .regbox {
   
     width: 650px;
-    margin-bottom:150px;
     max-height: 100vh;
     scale: 0.8;
   }

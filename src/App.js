@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import Page2 from "./components/Page2";
 import Page1 from "./components/Page1";
 import About from "./components/About";
+import Loader from "./components/Loader";
 import { AnimatePresence } from "framer-motion";
 
 function App() {
@@ -34,12 +35,15 @@ function App() {
             <AnimatePresence>
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/hsharma" element={<Home />} />
                 <Route path="/home" element={<Home />} />
-                <Route path="/Login" element={<Login />} />
+                <Route path="/login" element={<Login />} />
                 <Route path="/page1" element={<Page1 />} />
                 <Route path="/page2" element={<Page2 />} />
-                <Route path="/About" element={<About/>}/>
-                <Route path="/Register" element={<Register />} />
+                <Route path="/loader" element={<Loader />} />
+
+                <Route path="/about" element={<About/>}/>
+                <Route path="/register" element={<Register />} />
               </Routes>
               </AnimatePresence>
             </div>

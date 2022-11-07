@@ -6,81 +6,14 @@
     height: 100vh;
     background-size: cover;
     border: none;
-    background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-}
-.profileimage{
-    width: 50%;
-    max-height: 98vh;
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 50px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: none;
-    box-shadow: 0px 0px 5px 1px rgba(55, 121, 161, 0);
-    backdrop-filter: blur(2px);
-
+    justify-content: center;
+    background: linear-gradient(45deg, rgb(61, 101, 161), rgb(227, 192, 192));
 }
 
-.img{
-    width: 100%;
-    margin-bottom: 10px;
-    border: none;
-}
-.img img{
-    width: 100%;
-    max-height: 100%;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px 1px rgba(114, 114, 114, 0);
-    border: none;
-}
-.title{
-    width: 100%;
-    display: flex;
-    text-align: center;
-    color: aliceblue;
-    border-radius: 5px;
-    background: linear-gradient(55deg, rgba(189, 66, 28, 0),rgba(49, 101, 213, 0));
-    display: flex;
-    border: none;
-    flex-direction: column;
-  /* fallback for old browsers */
-    backdrop-filter: blur(15px);
-    box-shadow: 0 0 16px 0 rgba(76, 0, 0, 0);
-}
-
-
-
-.title h2{
-    text-shadow: 0 4px 5px rgba(12, 74, 84, 0.874);
-    font-family: "DynaPuff", cursive;
-    font-size: 25px;
-    transition: 0.5s;
-}
-.title h2:hover{
-    scale: 1.4;
-}
-.title a{
-    transition: 0.5s;
-}
-.title a:hover{
-    scale: 1.4;
-    color: rgb(157, 207, 250);
-}
-
-.download{
-    color: white;
-    font-size: 25px;
-    font-family:cursive;
-    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0);
-
-}
 
 
 .doc{
     width: 100%;
-    max-height: 100vh;
     display: flex;
     justify-content: center;
     box-shadow: 0px 0px 5px 1px rgba(114, 114, 114, 0);
@@ -89,15 +22,13 @@
     justify-content: center;
 }
 .resumediv{
-    width: 100%;
+    width: 50%;
     display: flex;
-    max-height: 100vh;
     justify-content: center;
 
 }
 iframe{
     width: 100%;
-    border: none;    
 }
 
 
@@ -120,7 +51,7 @@ iframe{
         flex-direction: row;
     }
     .profileimage img{
-        width: 100%;
+        width: 80%;
         height:25vh;
         margin: 5px;
     }

@@ -1,0 +1,187 @@
+*{
+  // border: 1px solid red;
+}
+.aboutDiv{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(61, 101, 161), rgb(227, 192, 192));
+}
+
+.abbody {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: none;
+  }
+  
+  .abcard {
+    position: relative;
+    width: 550px;
+    height: 600px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: -15px 10px 25px 5px rgba(0, 0, 0, 0.4);
+    margin: 120px 0px;
+    transition: 0.5s;
+    background: linear-gradient(45deg, rgba(2, 80, 237, 0.146), rgba(125, 125, 244, 0.265));
+  }
+  
+  
+  .abimgbox {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    transform: translate(-50%);
+    top: -20%;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+    border-radius: 200px;
+    transition: 0.5s;
+    box-shadow: -10px 5px 30px 0px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+    overflow: hidden;
+    border: none;
+  }
+  
+  .abimgbox img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  
+  .abcard .abcontent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transition: 0.5s;
+  
+  }
+  .abcard .abcontent .abdetails {
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+  }
+  
+  
+  .abcard .abcontent .abdetails h2 {
+    font-size: 1.75em;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-transform: uppercase;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+  h4{
+    margin-top: 15px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+    opacity: 0.8;
+    color: rgb(255, 217, 0);
+    transition: 0.5s;
+    .f1 {
+      animation: moveupdown 3s infinite linear;
+    }
+    .r2 {
+      animation: moveupdown 3s 0.2s infinite linear;
+    }
+    .o3 {
+      animation: moveupdown 3s 0.4s infinite linear;
+    }
+    .n4 {
+      animation: moveupdown 3s 1.6s infinite linear;
+    }
+    .t5 {
+      animation: moveupdown 3s 1.8s infinite linear;
+    }
+    .e6 {
+      animation: moveupdown 4s infinite linear;
+    }
+    .n7 {
+      animation: moveupdown 4s 0.2s infinite linear;
+    }
+    .d8 {
+      animation: moveupdown 4s 0.4s infinite linear;
+    }
+    .d9 {
+      animation: moveupdown 4s 0.6s infinite linear;
+    }
+    .e10 {
+      animation: moveupdown 4s 0.8s infinite linear;
+    }
+    .v11 {
+      animation: moveupdown 5s 0.2s infinite linear;
+    }
+    .e12 {
+      animation: moveupdown 5s 0.4s infinite linear;
+    }
+    .l13 {
+      animation: moveupdown 5s 0.6s infinite linear;
+    }
+    .o14 {
+      animation: moveupdown 5s 0.8s infinite linear;
+    }
+    .p15 {
+      animation: moveupdown 6s infinite linear;
+    }
+    .e16 {
+      animation: moveupdown 6s 0.2s infinite linear;
+    }
+    .r17 {
+      animation: moveupdown 6s 0.4s infinite linear;
+    }
+    @keyframes moveupdown {
+      
+      50% {
+        color: rgb(255, 255, 255);
+      }
+      
+    }
+  }
+  
+  .abcard .abcontent .abdetails .abdata {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+    transition: 0.5s;
+    border: none;
+  }
+  
+  .abcard .abcontent .abdetails .abdata img{
+    display: flex;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+    transition: 0.5s;
+    &:hover{
+      scale: 1.3;
+      border: 2px solid white;
+      box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.218);
+    }
+  }
+  
+  
+  #abh2{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+  }
+  h3{
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
