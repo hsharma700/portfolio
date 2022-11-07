@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    /* border: 0.5px solid red; */
+}
+.Header{
+    max-width: 100%;
+    display: flex;
+    background-color: #6a9ab9;
+    background-image: linear-gradient(135deg, #3b5b71 0%, #595b8e 100%);
+    border: none;
+    outline: none;
+}
+
+.sitename{
+    width: 100%;
+    display: flex;
+    color: rgb(246, 201, 40);
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    transition: 0.3s;
+    font-family: 'DynaPuff', cursive;
+}
+.profile:hover{
+   background: rgba(0, 0, 0, 0);
+}
+
+
+.Link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.L1{
+    max-width: 100%;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 2px;
+    color: white;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 2rem 0;
+    transition: 0.3s;
+}
+.L1:hover{
+    color: rgb(202, 202, 202);
+    text-shadow: -10px -5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* page */
+
+
+.logreg{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 50%;
+    display: flex;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.log{
+    display: flex;
+    color: yellow;
+    font-size: 23px;
+    font-family: 'DynaPuff', cursive;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    background: none;
+    border: 2px solid rgba(255, 255, 28, 0);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.log:hover{
+    text-shadow: 0 5px 10px rgb(9, 9, 9);
+    scale: 1.2;
+}
+
+.reg{
+    display: flex;
+    font-size: 23px;
+    color: rgb(255, 193, 21);
+    font-family: 'DynaPuff', cursive;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    background: none;
+    border: 2px solid rgba(255, 255, 0, 0);
+    border-radius: 5px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    transform: scale(1);
+}
+.reg:hover{
+    text-shadow: 0 5px 10px rgb(9, 9, 9);
+    scale: 1.2;
+}
+
+
+@media (max-width:900px ){
+    .Header{
+        height: 60px;
+    }
+    .profile{
+        width:50%;
+    }
+    .L1{
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    
+    .logreg{
+        width:40%;
+    }
+  .log{
+    font-size: 15px;
+  }
+
+  .reg{
+    font-size: 15px;
+  }
+    
+   
+   
+  
+    
+}
+
+@media (max-width:350px){
+    *{
+        display:none;
+    }
+}

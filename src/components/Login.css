@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .divlog{
+    width: 100%;
+    height: 100vh;
+  }
+  .maindiv {
+    background-image: url("http://wallpapertops.com/walldb/original/0/1/b/465102.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .box {
+    width: 700px;
+    max-height: 50vh;
+    margin-top: -250px;
+    padding: 50px;
+    background: linear-gradient(46deg, rgba(28, 94, 174, 0.247) , rgba(2, 125, 156, 0.315));
+    backdrop-filter:blur(10px);
+    box-shadow: -10px -5px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box ::placeholder {
+    color: rgba(193, 193, 194, 0.667);
+  }
+  .box h1 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: aliceblue;
+  }
+  .input{
+    width: 100%;
+  }
+  
+  .input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    color: white;
+    outline: none;
+    transition: 1s;
+    transition-duration: 2s 5s;
+  }
+  
+  input:hover {
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  .buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn1,
+  .btn2 {
+    width: 40%;
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    background: none;
+    color: aliceblue;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    border-bottom: 7px solid black;
+    border-radius: 20px;
+    font-family: "DynaPuff", cursive;
+    box-shadow: 0 0 1px 1px rgba(205, 184, 184, 0.541);
+  }
+  
+  .btn1:active,
+  .btn2:active {
+    outline: none;
+    border: none;
+    border-top: 5px solid black;
+    border-radius: 20px;
+    border-bottom: 0px solid black;
+  }
+  
+
+/* popup box */
+  .swal2-styled.swal2-default-outline:focus {
+    box-shadow: none !important;
+}
+
+.swal2-container.swal2-center>.swal2-popup {
+  grid-column: 2;
+  grid-row: 2;
+  align-self: center;
+  justify-self: center;
+  border-radius: 15px;
+}
+
+.swal2-icon.swal2-info.swal2-icon-show {
+  border-color: rgb(185, 185, 30);
+  color: rgb(197, 197, 35);
+}
+
+
+
+  @media (max-width: 900px) {
+    .box {
+      margin-top: -250px;
+      width: 350px;
+      max-height: 50vh;
+    }
+  
+  }
+  

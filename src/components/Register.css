@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.divreg {
+  width: 100%;
+  height: 100vh;
+}
+
+.regmaindiv {
+  background-image: url("https://pixabay.com/get/g81c7421ae9a2f855dc9a07a64d08d0fcb46042a235bbdc6d8e789098f63df2a284523c0407c39d7c271a3b7ee4964c3b21941954fe260264b15a219317fdc2c9_1920.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.regbox {
+  width: 700px;
+  max-height: 70vh;
+  margin-top: -100px;
+  padding: 50px;
+  background: rgba(196, 176, 114, 0.667);
+  backdrop-filter: blur(15px);
+  box-shadow: -10px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+
+::placeholder {
+  color: rgba(87, 26, 26, 0.454);
+}
+.regbox h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.reginput {
+  width: 100%;
+}
+.reginput input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+  color: rgb(66, 45, 0);
+  outline: none;
+  transition: 1s;
+  transition-duration: 2s 5s;
+}
+
+.reginput input:hover {
+  border-bottom: 2px solid rgb(36, 26, 0);
+  border-radius: 10px;
+}
+
+p{
+  margin-top: -30px;
+}
+
+
+.regbuttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.regbtn1,
+.regbtn2 {
+  width: 40%;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  background: none;
+  color: rgb(78, 53, 0);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s;
+  border-bottom: 7px solid black;
+  border-radius: 20px;
+  font-family: "DynaPuff", cursive;
+  box-shadow: 0 0 1px 1px rgba(205, 184, 184, 0.148);
+}
+
+.regbtn1:active,
+.regbtn2:active {
+  outline: none;
+  border: none;
+  border-top: 5px solid black;
+  border-radius: 20px;
+  border-bottom: 0px solid black;
+}
+
+
+/* errors */
+.form_error{
+  color: rgb(255, 42, 42);
+}
+
+
+@media (max-width: 900px) {
+  .regbox {
+  
+    width: 650px;
+    margin-bottom:150px;
+    max-height: 100vh;
+    scale: 0.8;
+  }
+}
