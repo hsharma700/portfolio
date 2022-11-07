@@ -35,12 +35,13 @@ function App() {
             <AnimatePresence>
               <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/hsharma" element={<Home />} />
+                <Route path="/hsharma/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/page1" element={<Page1 />} />
                 <Route path="/page2" element={<Page2 />} />
                 <Route path="/loader" element={<Loader />} />
+                <Route path="*" element={<Home />} />
 
                 <Route path="/about" element={<About/>}/>
                 <Route path="/register" element={<Register />} />
