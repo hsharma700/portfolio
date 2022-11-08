@@ -17,7 +17,7 @@
 }
 .p2title{
     width: 100%;
-    height: 20vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,7 @@
 }
 .p2main div{
     width: 100%;
-    height: 400px;
+    height: 650px;
 }
 
 

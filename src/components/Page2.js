@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import webapp1 from "../components/assets/webapp1.png";
 import webapp2 from "../components/assets/webapp2.png";
+import webapp3 from "../components/assets/webapp3.jpeg";
 import Loader from "./Loader";
 
 import "./Page2.css";
@@ -23,7 +24,7 @@ function Page2() {
         <div className="page2indiv">
         <div className="p2title">
         <motion.div
-              initial={{ opacity: 0, y: -70 }}
+              initial={{ opacity: 0, y: -40 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0 }}
               transition={{
@@ -76,8 +77,8 @@ function Page2() {
               }}
               className="webapp"
             >
-              <a href="https://hsharma700.github.io/hsharma/" target="blank">
-                <img src={webapp1} alt="" />
+              <a href="https://hsharma700.github.io/netflix_clone1/" target="blank">
+                <img src={webapp3} alt="" />
               </a>
             </motion.div>
           </div>
