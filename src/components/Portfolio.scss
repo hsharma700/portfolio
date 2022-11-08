@@ -98,7 +98,7 @@
 .card .content .details .data {
   display: flex;
   justify-content: space-between;
-  margin: 0 200px;
+  margin: 0 160px;
   align-items: center;
   transition: 0.5s;
 }
@@ -117,3 +117,10 @@
 
 
 
+
+@media (max-width:800px) {
+  .card{
+    width: 80%;
+  }
+  
+}
