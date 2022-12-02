@@ -27,7 +27,7 @@ function Page1() {
               }}
               className="resumediv"
             >
-                            {/* <iframe src="https://docs.google.com/document/d/e/2PACX-1vS3_uO18tgpPZkP69qzo5b93MWJDzaRu7rPX96rpMnG9pcmFvu8ubprl04SFKc4jMW8VLcdrCudJdxJ/pub?embedded=true"></iframe>{" "} */}
+                      
 
   
 
