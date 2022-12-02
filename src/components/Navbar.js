@@ -12,9 +12,7 @@ export default function Navbar() {
         exit={{opacity:0}}
         transition={{duration:1}}
         className="page">
-            <Link className="link l1" to={"/page1"}>
-              Resume
-            </Link>
+           
             <Link className="link l2" to={"/page2"}>
               Websites
             </Link>
