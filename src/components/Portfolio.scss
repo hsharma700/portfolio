@@ -1,14 +1,27 @@
 
 .body {
+  z-index: 1;
   display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
   max-height: 100vh;
-  background: linear-gradient(45deg, rgb(61, 101, 161), rgb(227, 192, 192));
+  position: relative;
+  background: linear-gradient(45deg, rgba(50, 83, 132, 0.7), rgba(143, 113, 113, 0.7));
 }
 
+// .body .imgBg1{
+//   z-index: -1;
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+//   height: 100%;
+//   opacity: 0.5;
+//   filter: brightness(20%);
+// }
+
 .card {
+  z-index: 2;
   position: relative;
   width: 550px;
   height: 300px;
@@ -120,7 +133,31 @@
 
 @media (max-width:800px) {
   .card{
-    width: 80%;
+    width: 300px;
+    height: 100px;
+  }
+  .card:hover{
+    height: 370px;
+  }
+  .imgbox{
+    width: 20%;
+    height: 60%;
+  }
+  .card .content .details{
+    margin-bottom: -30px;
   }
   
+  .card:hover .imgbox{
+    width: 175px;
+    height: 175px;
+  }
+  .card .content .details h2 {
+    font-size: 1.2rem;
+  }
+  .card .content .details .data{
+    margin: 0 100px;
+  }
+  .card .content .details .data img{
+    width: 30px;
+  }
 }

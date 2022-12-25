@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Portfolio.scss"
+import Tech1 from "./assets/tech2.jpg";
 
 export default function Portfolio() {
 
@@ -16,6 +17,7 @@ export default function Portfolio() {
   return (
     <>
     <div id='body' className='body'>
+       {/* <img className='imgBg1' src={Tech1} alt='' /> */}
     <div className='card'>
         <div className='imgbox'>
             <img src='https://drive.google.com/uc?id=1f3eHmg8rAJPgPN5c0THkUvvUZlzwoT_f'/>

@@ -8,7 +8,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(125deg, rgb(53, 38, 64), rgba(106, 77, 37, 0.783));
+    background: linear-gradient(125deg, rgb(53, 38, 64), rgba(82, 60, 28, 0.783));
 }
 .page2indiv{
     width: 100%;
@@ -31,8 +31,6 @@
     font-size: 3rem;
     text-decoration: underline;
     text-underline-offset: 15px;
-    border-radius: 20px;
-    border-bottom: 2px solid orange;
     padding-bottom: 15px;
     text-shadow: 0 4px 1px rgba(201, 137, 33, 0.835);
 }
@@ -60,8 +58,15 @@
 }
 
 @media (max-width:800px){
+    .p2main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     .p2main div{
-        height: 400px;
+        width: 400px;
+        height: 500px;
     }
     .webapp img{
         border-radius: 80px;

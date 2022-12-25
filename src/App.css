@@ -1,15 +1,17 @@
 
 
+*{
+  background: none;
+}
 
-
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 10px;
   background-color: rgba(0, 0, 0, 0.74);
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: rgba(0, 0, 0, 0.676);
-}
+} */
 .main-container {
   width: 100%;
   background-color: rgba(0, 0, 0, 0);
@@ -18,9 +20,8 @@
 }
 .App1{
   display: flex;
-
+  width: 100%;
   flex-direction: column;
-  min-height: 100vh;
   background-color: black;
 }
 

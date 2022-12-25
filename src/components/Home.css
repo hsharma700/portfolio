@@ -1,6 +1,19 @@
-
+*{
+    /* border: 1px solid red */
+}
 
 .main{
     width: 100%;
-    
+    position: relative;
+    /* background-image: url('./assets/videos/tech5.gif'); */
 }
+
+/* .main .homeBg1{
+   
+        z-index: -2;
+        position: absolute;
+        background-size: cover;
+        opacity: 0.5;
+        filter: brightness(20%);
+    
+} */

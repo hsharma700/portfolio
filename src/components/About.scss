@@ -3,8 +3,7 @@
 }
 .aboutDiv{
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(45deg, rgb(61, 101, 161), rgb(227, 192, 192));
+    background: linear-gradient(45deg, rgb(29, 47, 74), rgb(101, 85, 85));
 }
 
 .abbody {
@@ -12,7 +11,6 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background: none;
   }
   
@@ -38,7 +36,7 @@
     width: 250px;
     height: 250px;
     z-index: 1;
-    border-radius: 200px;
+    border-radius: 50%;
     transition: 0.5s;
     box-shadow: -10px 5px 30px 0px rgba(0, 0, 0, 0.5);
     object-fit: cover;
@@ -188,6 +186,30 @@
 
   @media (max-width:800px) {
      .abcard{
-      width: 400px;
+      width: 300px;
+     }
+     .abcard .abcontent .abdetails h2{
+        font-size: 1.2rem;
+     }
+     h4{
+      font-size: 0.7rem;
+     }
+     h3{
+      font-size: 0.7rem;
+     }
+     .abcard{
+      height: 410px;
+     }
+     .abimgbox{
+        width: 50%;
+        height: 37%;
+        
+     }
+     .abcard .abcontent .abdetails .abdata {
+      margin: 0 100px
+      
+     }
+     .abcard .abcontent .abdetails .abdata img{
+      width: 30px;
      }
   }

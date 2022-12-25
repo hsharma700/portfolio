@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import webapp1 from "../components/assets/webapp1.png";
+import webapp4 from "../components/assets/webapp4.png";
 import webapp2 from "../components/assets/webapp2.png";
 import webapp3 from "../components/assets/webapp3.jpeg";
 import Loader from "./Loader";
@@ -45,8 +45,8 @@ function Page2() {
               }}
               className="webapp"
             >
-              <a href="https://hsharma700.github.io/hsharma/" target="blank">
-                <img src={webapp1} alt="" />
+              <a href="https://hsharma700.github.io/netflix_clone1/" target="blank">
+                <img src={webapp3} alt="" />
               </a>
             </motion.div>
           </div>
@@ -77,8 +77,8 @@ function Page2() {
               }}
               className="webapp"
             >
-              <a href="https://hsharma700.github.io/netflix_clone1/" target="blank">
-                <img src={webapp3} alt="" />
+              <a href="https://hsharma700.github.io/cloudNow/" target="blank">
+                <img src={webapp4} alt="" />
               </a>
             </motion.div>
           </div>

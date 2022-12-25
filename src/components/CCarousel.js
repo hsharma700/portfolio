@@ -1,6 +1,7 @@
 import React from "react";
 import "./CCarousel.css";
 import { motion } from "framer-motion";
+import {TiChevronLeftOutline,TiChevronRightOutline} from "react-icons/ti";
 
 function CCarousel() {
   return (
@@ -22,6 +23,7 @@ function CCarousel() {
         animate={{ opacity: 1, y:0 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 1 }}
+        className="carouselMainDiv"
       >
         <div
           id="carouselExampleFade"
@@ -29,47 +31,45 @@ function CCarousel() {
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
+          
             <div className="carousel-item active item1">
+           
               <div className="txtdiv txt1">
-                <h1>Welcome to Demo Website</h1>
+                <h1>Sample Website</h1>
               </div>
             </div>
             <div className="carousel-item item2">
               <div className="txtdiv txt2">
-                <h1>I have created this website in React js</h1>
+                <h1>Websites in React js</h1>
               </div>
             </div>
             <div className="carousel-item item3">
               <div className="txtdiv txt3">
                 <h1>
-                  To Enter inside Websites section you have to first login
+                  Checkout Websites Section
                 </h1>
               </div>
             </div>
           </div>
           <button
+                      style={{fontSize:'60px'}}
+
             className="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleFade"
             data-bs-slide="prev"
           >
-            <span
-              className="carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Previous</span>
+            <TiChevronLeftOutline/>
           </button>
           <button
+            style={{fontSize:'60px'}}
             className="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleFade"
             data-bs-slide="next"
           >
-            <span
-              className="carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="visually-hidden">Next</span>
+            
+            <TiChevronRightOutline/>
           </button>
         </div>
       </motion.div>

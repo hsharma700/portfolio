@@ -1,16 +1,15 @@
 .Navbar {
   display: flex;
-  width: 100%;
-  max-height: 60px;
-  background-image: linear-gradient(62deg, #1d3954 0%, #493f52 100%);
+  width: 25%;
+  justify-content: center;
+  align-items: center;
 }
 
 
 .page {
-  width: 100%;
-  padding: 20px;
-  padding-left: 100px;
+  width: 90%;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -85,7 +84,7 @@
     text-transform: uppercase;
     color: white;
     font-size: 20px;
-    margin-right: 30px;
+    margin: 0 15px;
     font-family: "DynaPuff", cursive;
     transition: 0.5s;
 }
@@ -107,7 +106,7 @@
     background: rgb(255, 217, 0);
     display: block;
     position: absolute;
-    width: 100%;
+    width: 75%;
     left: 0;
     height: 2px;
     
@@ -140,8 +139,13 @@
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
+  .Navbar{
+    width: 70%;
+    margin: 0;
+  }
   .page {
+    margin: 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -150,17 +154,18 @@
   .l1,
   .l2,
   .l3 {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     position: absolute;
   }
   .l1 {
-    margin-left: -270px;
+    margin-left: -220px;
   }
   .l2 {
-    margin-left: -110px;
+    margin-left: -70px;
   }
   .l3 {
-    margin-left: 65px;
+    margin-left:130px;
+    width: 100px;
   }
 }

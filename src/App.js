@@ -24,13 +24,12 @@ function App() {
   }
 
   return (
-    <>
       <div onLoad={myFuntion} className="App1">
         <div id="preloader"></div>
         <BrowserRouter>
           
             <Header/>
-            <Navbar/>
+            {/* <Navbar/> */}
             <div className="main-container">
             <AnimatePresence>
               <Routes>
@@ -51,7 +50,6 @@ function App() {
         </BrowserRouter>
         
       </div>
-    </>
   );
 }
 
